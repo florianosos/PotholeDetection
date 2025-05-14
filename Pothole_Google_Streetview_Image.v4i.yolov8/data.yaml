@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pothole']
+
+roboflow:
+  workspace: kean-1eafw
+  project: pothole-google-streetview-image
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kean-1eafw/pothole-google-streetview-image/dataset/4
